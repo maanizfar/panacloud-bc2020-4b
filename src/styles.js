@@ -6,12 +6,12 @@ const theme = {
   secondary2: "#23ffdb",
 };
 
-const darkTheme = {
-  primary: "#111111",
-  primary2: "#8e8e8c",
+// const darkTheme = {
+//   primary: "#111111",
+//   primary2: "#8e8e8c",
 
-  secondary: "#1b5dbf",
-  secondary2: "#23ffdb",
-};
+//   secondary: "#1b5dbf",
+//   secondary2: "#23ffdb",
+// };
 
 export default theme;
