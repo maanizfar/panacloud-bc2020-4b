@@ -1,7 +1,19 @@
 import React from "react";
+import TopBar from "./components/TopBar";
+import { ThemeProvider } from "styled-components";
+
+import theme from "./styles";
+import Header from "./components/Header";
 
 function App() {
-  return <div>Project 4b</div>;
+  return (
+    <ThemeProvider theme={theme}>
+      <TopBar />
+      <main>
+        <Header />
+      </main>
+    </ThemeProvider>
+  );
 }
 
 export default App;
