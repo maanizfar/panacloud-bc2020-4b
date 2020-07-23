@@ -1,6 +1,6 @@
 import React from "react";
 import TopBar from "./components/TopBar";
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider } from "@material-ui/core/styles";
 
 import theme from "./styles";
 // import Header from "./components/Header";
