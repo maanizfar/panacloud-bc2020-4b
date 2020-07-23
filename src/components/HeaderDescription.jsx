@@ -1,6 +1,7 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
+import useWebAnimations, { bounceInDown } from "@wellyshen/use-web-animations";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -51,8 +52,24 @@ const useStyles = makeStyles((theme) => ({
 const HeaderDescription = () => {
   const classes = useStyles();
 
+  const { ref } = useWebAnimations({
+    ...bounceInDown,
+    // keyframes: [
+    //   {
+    //     transform: "translateX(-600px)",
+    //   },
+    //   {
+    //     transform: "translateX(0px)",
+    //   },
+    // ],
+    // timing: {
+    //   duration: 1000,
+    //   easing: "ease-in",
+    // },
+  });
+
   return (
-    <div className={classes.container}>
+    <div ref={ref} className={classes.container}>
       <div>
         <Typography className={classes.title1} variant="h1">
           Cortex
