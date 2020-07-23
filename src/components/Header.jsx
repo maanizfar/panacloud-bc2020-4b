@@ -12,7 +12,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.primary.main,
     backgroundImage: `radial-gradient(circle at 90% 50%, ${theme.palette.primary.dark},  ${theme.palette.primary.main} )`,
     color: theme.palette.common.white,
-    minWidth: "320px",
 
     [theme.breakpoints.down("md")]: {
       backgroundImage: `radial-gradient(circle at 125% 50%, ${theme.palette.primary.dark},  ${theme.palette.primary.main} )`,

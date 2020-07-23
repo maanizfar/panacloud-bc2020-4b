@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     backgroundImage: `linear-gradient(to right, ${theme.palette.primary.main},  ${theme.palette.primary.dark})`,
     position: "sticky",
+    top: 0,
     zIndex: 10,
     boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.12)",
   },

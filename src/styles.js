@@ -23,10 +23,24 @@ const theme = createMuiTheme({
         fontSize: "2.5rem",
       },
     },
+    h3: {
+      fontSize: "2.8rem",
+      "@media (max-width:600px)": {
+        fontSize: "2rem",
+      },
+    },
     body1: {
       fontSize: "1.3rem",
       "@media (max-width:600px)": {
         fontSize: "1.2rem",
+      },
+    },
+    body2: {
+      fontSize: "1.1rem",
+      lineHeight: 1.2,
+
+      "@media (max-width:600px)": {
+        fontSize: "1rem",
       },
     },
   },
