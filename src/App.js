@@ -5,6 +5,7 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import theme from "./styles";
 import Header from "./components/Header";
 import Services from "./components/Services";
+import Reviews from "./components/Reviews";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Header />
         <Services />
+        <Reviews />
       </main>
     </ThemeProvider>
   );
