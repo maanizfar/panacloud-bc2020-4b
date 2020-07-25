@@ -12,7 +12,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <TopBar />
-      <main>
+      <main style={{ overflow: "hidden" }}>
         <Header />
         <Services />
         <Reviews />
